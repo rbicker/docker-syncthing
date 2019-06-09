@@ -1,7 +1,8 @@
 Syncthing
 =========
 
-image to run (latest)  syncthing discovery- or relay-server as a docker container.
+* image to run (latest)  syncthing discovery- or relay-server as a docker container.
+* exposes port 5000
 
 # examples
 ```
