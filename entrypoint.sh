@@ -17,5 +17,5 @@ if [ ! -d $SRC_PATH ]; then
   cp $SRC_PATH/bin/* /usr/local/bin/
 fi
 
-echo "running ${1}"
-eval $1
+echo "running ${@}"
+eval "$@"
